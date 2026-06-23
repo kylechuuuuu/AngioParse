@@ -1,0 +1,9 @@
+huggingface_hub
+safetensors
+einops
+timm
+decord
+pycocotools
+ftfy
+regex
+sam2
