@@ -5,14 +5,14 @@
 AngioParse is a deep learning framework for fine-grained anatomical parsing of the cerebrovascular tree in Digital Subtraction Angiography (DSA) images. It reformulates cerebrovascular parsing as a task of structure-aware semantic disentanglement, enabling precise categorization into six clinically distinct functional segments: Carotid Artery (CA), Vertebral Artery (VA), Anterior Cerebral Artery (ACA), Middle Cerebral Artery (MCA), Posterior Cerebral Artery (PCA), and Others.
 
 <p align="center">
-  <img src="fig/fig1-cropped.pdf" alt="DSA visualization" width="80%">
+  <img src="fig/fig1-cropped.png" alt="DSA visualization" width="80%">
   <br>
   <em>Minimum intensity projection (MinIP) of a DSA sequence, binary vessel mask, and anatomical parsing result.</em>
 </p>
 
 ## Overview
 
-![Architecture](fig/fig2-cropped.pdf)
+![Architecture](fig/fig2-cropped.png)
 
 AngioParse employs a dual-pathway architecture with two core components:
 
