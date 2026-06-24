@@ -32,9 +32,15 @@ The framework synergizes a CNN expert (local fine-grained features) with SAM2 ex
 ## Installation
 
 ```bash
-git clone https://github.com/kylechuuuuu/AngioParse.git
-cd AngioParse
-pip install -r requirements.txt
+git clone https://github.com/kylechuuuuu/AngioParse.git                                                   
+cd AngioParse                                                                                             
+git clone https://github.com/facebookresearch/sam2.git                                                    
+cd sam2                                                                                                   
+mkdir sam2_pth                                                                                            
+cd sam2_pth                                                                                               
+wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt                         
+cd ../..                                                                                                  
+pip install -r requirements.txt    
 ```
 
 Place the SAM2 checkpoint at `sam2/sam2_pth/sam2.1_hiera_large.pt`.
