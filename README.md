@@ -89,11 +89,15 @@ python calculate_metrics.py
 If you find this work useful, please cite the paper:
 
 ```bibtex
-@inproceedings{angioparse2026,
-  title={AngioParse: Structure-Aware Semantic Disentanglement for Cerebrovascular Parsing in DSA},
-  author={...},
-  booktitle={MICCAI 2026},
-  year={2026}
+@InProceedings{ZhuKai_FineGrained_MICCAI2026,
+    author = { Zhu, Kai AND Cao, Le AND Chen, Li AND Cheng, Jun AND Mou, Lei AND Zhao, Yitian},
+    title = { { Fine-Grained Cerebrovascular Parsing in DSA via Structurally-Grounded Semantic Disentanglement } },
+    booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
+    year = {2026},
+    publisher = {Springer Nature Switzerland},
+    volume = {LNCS 16893},
+    month = {September},
+    page = {pending}
 }
 ```
 
